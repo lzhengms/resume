@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "create my resume",
   "main": "index.js",
-  "bin":{"resume":"bin/resume.js"},
+  "bin":{"resume-ok":"bin/resume.js"},
   "scripts": {
     "start": "node bin/resume.js"
   },
@@ -21,6 +21,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lzhengms/resume/issues"
+  },
+  "dependencies": {
+    "commander": "^2.6.0"
   },
   "homepage": "https://github.com/lzhengms/resume#readme"
 }
