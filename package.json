@@ -1,0 +1,26 @@
+{
+  "name": "resume-ok",
+  "version": "1.0.1",
+  "description": "create my resume",
+  "main": "index.js",
+  "bin":{"resume":"bin/resume.js"},
+  "scripts": {
+    "start": "node bin/resume.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lzhengms/resume.git"
+  },
+  "keywords": [
+    "lzhengms",
+    "resume",
+    "node",
+    "node cli"
+  ],
+  "author": "lzhengms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lzhengms/resume/issues"
+  },
+  "homepage": "https://github.com/lzhengms/resume#readme"
+}
